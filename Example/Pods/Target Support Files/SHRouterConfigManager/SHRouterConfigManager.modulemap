@@ -1,0 +1,6 @@
+framework module SHRouterConfigManager {
+  umbrella header "SHRouterConfigManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

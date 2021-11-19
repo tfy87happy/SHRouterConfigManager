@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SHRouterConfigManager (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SHRouterConfigManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SHRouterConfigManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SHRouterConfigManager: 7de99bd422b55e66a26255f606f9f4cac2c3f3e9
+
+PODFILE CHECKSUM: fcb03643579da1c738f3e0bea8d50668c18336a2
+
+COCOAPODS: 1.7.4
