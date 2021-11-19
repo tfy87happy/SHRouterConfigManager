@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SHRouterConfigManager_Example' do
+  pod 'SHRouterConfigManager', :path => '../'
+
+  target 'SHRouterConfigManager_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
