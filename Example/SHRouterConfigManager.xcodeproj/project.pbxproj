@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D13CCB55274B7C9600CAC46E /* SHTestPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CCB54274B7C9600CAC46E /* SHTestPushViewController.m */; };
 		FBFBCAB7291C406958F1CE79 /* Pods_SHRouterConfigManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547412FC49082A41EF896C9D /* Pods_SHRouterConfigManager_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13ED8AEAA202476BEBC51D02 /* SHRouterConfigManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SHRouterConfigManager.podspec; path = ../SHRouterConfigManager.podspec; sourceTree = "<group>"; };
+		13ED8AEAA202476BEBC51D02 /* SHRouterConfigManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHRouterConfigManager.podspec; path = ../SHRouterConfigManager.podspec; sourceTree = "<group>"; };
 		547412FC49082A41EF896C9D /* Pods_SHRouterConfigManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHRouterConfigManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		569BFA8BF7C85C28D10B451F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		569BFA8BF7C85C28D10B451F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SHRouterConfigManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHRouterConfigManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +67,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E2DBC008146812A1823A510 /* Pods-SHRouterConfigManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHRouterConfigManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SHRouterConfigManager_Tests/Pods-SHRouterConfigManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA0139664CE721CCE11B83BD /* Pods-SHRouterConfigManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHRouterConfigManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-SHRouterConfigManager_Tests/Pods-SHRouterConfigManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E56F7E392E622E4B7679C648 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D13CCB53274B7C9500CAC46E /* SHTestPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTestPushViewController.h; sourceTree = "<group>"; };
+		D13CCB54274B7C9600CAC46E /* SHTestPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTestPushViewController.m; sourceTree = "<group>"; };
+		E56F7E392E622E4B7679C648 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				9E2DBC008146812A1823A510 /* Pods-SHRouterConfigManager_Tests.debug.xcconfig */,
 				CA0139664CE721CCE11B83BD /* Pods-SHRouterConfigManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SHViewController.h */,
 				6003F5A6195388D20070C39A /* SHViewController.m */,
+				D13CCB53274B7C9500CAC46E /* SHTestPushViewController.h */,
+				D13CCB54274B7C9600CAC46E /* SHTestPushViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -386,6 +391,7 @@
 				6003F59E195388D20070C39A /* SHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D13CCB55274B7C9600CAC46E /* SHTestPushViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

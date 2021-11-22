@@ -8,51 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04391311A0628A1EED4206E0A7BA35A2 /* SHRouterRuntimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B8976D0F4C4CA1C0814D2A5D6AE9F44B /* SHRouterRuntimeUtils.m */; };
+		0B3AFF2560F5926368FA8A57F8CD3657 /* SHRouterConfigManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3219F52BCB0DBE8ACFBD1C1BECBE9826 /* SHRouterConfigManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5C51F4DCE3E239D842B74CB15247B0 /* SHRouterTargetConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4851A8612081BDC2C14DCDE865FB9FA2 /* SHRouterTargetConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10DA60DC36963FF24D5E14DC129FD0D0 /* NSError+SHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F417681E1E7B4B0246023176896440 /* NSError+SHRouter.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		1306A7205E02B054A1CF1943379FE5C4 /* SHNetworkConfigProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC4D53EE5DEEE113CEFA2D48748CF63 /* SHNetworkConfigProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12D4E1BFB022B6C3469DA08FB6937D8E /* SHRouterAuthObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DE079A84BD49AC05A932E1F6182686 /* SHRouterAuthObjectProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14277C8BA6F952816DB07DE39006BF7F /* UIViewController+FindVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FE102D57A91650D5B42CB9ECF5623EE8 /* UIViewController+FindVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		18D23940C9DC847727A8ABBA108B7AF6 /* SHNetworkConfigHandlerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6001368C8F56999987FD3731F9B78 /* SHNetworkConfigHandlerFactory.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		34721179A1617DA7D4EED4F9CB53AFBE /* SHNetworkConfigAPGeLiHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9511FEDE7732E4B40CACE25B9FBF1 /* SHNetworkConfigAPGeLiHandler.m */; };
+		305B1C82D5F0E70B9F4E87649D055695 /* SHRouterTargetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B63785787629A10FB9570DA247C6FFC /* SHRouterTargetConfig.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B12ECD06FDCE3A0505057BF96218D0C /* SHNetworkConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1F35C2C511824EDD55B98D4A799FF0 /* SHNetworkConfigManager.m */; };
+		45460124610AD6B2DF99F5D19B99217F /* SHRouterRuntimeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1326228E71B3D5ED1D2E882B2EF7FC74 /* SHRouterRuntimeUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4694502B4230070922C0886763EA50EE /* SHRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 903501469C1BBDADAFDD36635A6EF30D /* SHRouterManager.m */; };
+		4AE97A10394B5DD4DF2FCE1393C5ED4C /* SHRouterTableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ED957BAEB1520D2DE0B96BB512872AC2 /* SHRouterTableManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E6DE10383A978081902BE40E1364BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		4EE5C81B62198F0CAC231B0030DC4C46 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3C158CD89C8F5D668798F914A4419 /* ReplaceMe.m */; };
-		53805F6AED27213E44C4D03BA826C3A5 /* SHRouterConfigManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF98EE75AA604E498A42108A1B212E /* SHRouterConfigManager-dummy.m */; };
-		5BFD55D0A62B9ACA3604F44A4367B86D /* SHNetworkConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB88F6F604ECEFDBBFC5BEB047256B0 /* SHNetworkConfigModel.m */; };
+		5AF945281ECCABDDC16F8AE304A8AA7F /* SHRouterCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B769A0A5C8E20532DD2C231925228A /* SHRouterCore.m */; };
+		69B5D5B41029BDA8DC99509EF60F6B2D /* SHRouterRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C63C2E20FC270557B2D397B48BCF3399 /* SHRouterRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6C12C6FA2F8313A5F7F8DFC67853A3DA /* SHRouterTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2F1178C6867A0B01162C6C8378087 /* SHRouterTableManager.m */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		6DCAC950CBA80D599080C507F162D24F /* SHNetworkConfigAPEZCameraHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 350DE152E21C112E863396A0A5106A01 /* SHNetworkConfigAPEZCameraHandler.m */; };
-		7509C266A716494A5AE674D603B867CD /* SHNetworkConfigAPGeLiHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2115998B5884465A8525902D82621F1E /* SHNetworkConfigAPGeLiHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ED5524A32982656B81FD0363853A210 /* NSURL+SHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E524B990EEE5B49568DCF8E711F4DE4 /* NSURL+SHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732BE61F4E555139FC24788F24394F84 /* SHRouterTargetVCFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 690BB85CCC9E1F8892D85161B72DFBFA /* SHRouterTargetVCFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75F97E3E7C601DC3955D2A842FCAFF56 /* NSURL+SHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 831B3DA53F823D58024C9FA06589EC2E /* NSURL+SHRouter.m */; };
+		7736DC71F5B666FFCD5F58C600E5D099 /* UIViewController+FindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1678714372706A48E49843B974FC5418 /* UIViewController+FindVC.m */; };
+		7C6C9593E14D0A7DD769BEB3EFCDBE0C /* SHRouterConfigManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CFE703D4DE8A61BCB9CE08ACB03D4F /* SHRouterConfigManager-dummy.m */; };
+		7D07732C4209CF333CE89C35AADFBFB8 /* SHRouterManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5909EBA2A13DC064270DA865BB467659 /* SHRouterManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D1623A362FFB33329F939F4DB616134 /* Pods-SHRouterConfigManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC094D9A1191F46742F150AA4371B869 /* Pods-SHRouterConfigManager_Tests-dummy.m */; };
+		82CAD429F13C90E4864E7774479456E9 /* SHRouterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D200C60416899492A43F6C907DCA2B /* SHRouterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		830AB0B8AB02187C4E3703B8DB7F6788 /* SHRouterCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DAA1D6C292B2CE9DB96A679BE856B3 /* SHRouterCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		978B5BC9B992822F88CA7695FA4B410B /* SHNetworkConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B00CCF081FBC7797DC827E546818FDE /* SHNetworkConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9990836AF82CB0A282E449C3BD52525A /* SHRouterConfigManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D80C54B4DE765335BE9AFC64BD0BE54A /* SHRouterConfigManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AEC4092A5CC573E9B8E9F186119377D /* SHNetworkConfigHandlerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E36BE2841831E73F3581AB46D1D1774E /* SHNetworkConfigHandlerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		A24EA176AF4B77DEC80DABC994D56F94 /* SHNetworkConfigAPEZCameraHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC438667E962B4A27F024E8C64BC3F84 /* SHNetworkConfigAPEZCameraHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		A68A7A78E1B895E1BA6D1049E7343CB5 /* SHNetworkConfigMideaHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D83CAF57AF5D71E5BD2CA3E0E0A2BA7 /* SHNetworkConfigMideaHandler.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B97ACC813451595667A7218AD18542BA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AB742C8226B27B53823EF6BEDD0BE6 /* ReplaceMe.m */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE6CABC094D1165964B8FE32EFFF9537 /* SHNetworkConfigBaseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AF568CC85F81C0E67680EC1FF5D66220 /* SHNetworkConfigBaseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A27AFD4FDDE63214362CFD08651552 /* SHRouterTableProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5518C4A4C75A8C4FDABB01027C119EC2 /* SHRouterTableProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF07D57D1500F2C7C8AC798456DBDCE6 /* Pods-SHRouterConfigManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD01A87E2CDE47E40068CAC0E9176A0 /* Pods-SHRouterConfigManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0036ACFEAA6172958F705F2BF7C62C1 /* Pods-SHRouterConfigManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D07C0D52708D9AEE89D9A242993F5136 /* Pods-SHRouterConfigManager_Example-dummy.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D264CE52690BC8B769E77B4A42618068 /* SHNetworkConfigDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AC6324FFBD021F8BCE321CD8244808 /* SHNetworkConfigDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF6B580B3996E8AD02F4D123BE175203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		D43A761DC4868A633542739E0B477ADA /* SHRouterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A6DAD15ABA53052887445C7BAD60A /* SHRouterRequest.m */; };
+		DAE72146FA3D9D9870984043D07CA936 /* NSError+SHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC6282098E30146CAFA2EBD86FB2CCF /* NSError+SHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0DAA2D192E49DFF4AF79EFD9621ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E896A0E1B90E99613F310151BC911AEC /* SHRouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 42378269605EDDA5A7E756BF4804F06B /* SHRouterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		F19CB0BF59104A5333CAFFB860E1940F /* SHNetworkConfigMideaHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2D0EA75A61E05ADBD9F2692F587697 /* SHNetworkConfigMideaHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F558201E328CAB2EEA346F416EC2564A /* SHNetworkConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB5429DDC193052DDC36178AE79640C /* SHNetworkConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6F0FDE24B3104A3C8E7D0D6AB402A88 /* SHRouterTargetVCFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D127819AD0381389D39B021F22B3F /* SHRouterTargetVCFactory.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA8661B1459F5ADFA01F7C7862CF6FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		FAFDE8530FEEAF7274987E2D7AFD88A6 /* SHNetworkConfigBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A88C8D4B05EFD5D53E5EF7BE827A011 /* SHNetworkConfigBaseHandler.m */; };
+		FADC05A7FE182B6C6979DDEE69024876 /* SHRouterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4DB93F9500724501A602C3E693B500 /* SHRouterDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE388AADEB497DB42EFE4665FD0C77BA /* Pods-SHRouterConfigManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD40929ADEFA6A6209FC4D491DE1F1DC /* Pods-SHRouterConfigManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -84,77 +93,86 @@
 		0851406E1822DFCEA54B1A0DF7A78CA6 /* Pods-SHRouterConfigManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHRouterConfigManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		0BD039DD569FF4FFCFA076465CB8CE29 /* Pods-SHRouterConfigManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHRouterConfigManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1326228E71B3D5ED1D2E882B2EF7FC74 /* SHRouterRuntimeUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterRuntimeUtils.h; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		18ADA4B7410E952D52736FA630ED621F /* SHRouterConfigManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SHRouterConfigManager-Info.plist"; sourceTree = "<group>"; };
-		1AB5429DDC193052DDC36178AE79640C /* SHNetworkConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigManager.h; sourceTree = "<group>"; };
-		1AB88F6F604ECEFDBBFC5BEB047256B0 /* SHNetworkConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigModel.m; sourceTree = "<group>"; };
+		1678714372706A48E49843B974FC5418 /* UIViewController+FindVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FindVC.m"; sourceTree = "<group>"; };
+		19CFE703D4DE8A61BCB9CE08ACB03D4F /* SHRouterConfigManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHRouterConfigManager-dummy.m"; sourceTree = "<group>"; };
 		1AEAA8830718AE5FD0DA4C5CB76458C7 /* SHRouterConfigManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHRouterConfigManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		2115998B5884465A8525902D82621F1E /* SHNetworkConfigAPGeLiHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigAPGeLiHandler.h; sourceTree = "<group>"; };
-		2EBF98EE75AA604E498A42108A1B212E /* SHRouterConfigManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHRouterConfigManager-dummy.m"; sourceTree = "<group>"; };
+		27DE079A84BD49AC05A932E1F6182686 /* SHRouterAuthObjectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterAuthObjectProtocol.h; sourceTree = "<group>"; };
+		2D4DB93F9500724501A602C3E693B500 /* SHRouterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterDefine.h; sourceTree = "<group>"; };
+		3219F52BCB0DBE8ACFBD1C1BECBE9826 /* SHRouterConfigManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHRouterConfigManager-umbrella.h"; sourceTree = "<group>"; };
 		3281F0E6CCFA186F26E12F34C57E8FAA /* Pods-SHRouterConfigManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHRouterConfigManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		32D142D1C024334C34582119F64478A6 /* Pods-SHRouterConfigManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHRouterConfigManager_Tests.modulemap"; sourceTree = "<group>"; };
-		350DE152E21C112E863396A0A5106A01 /* SHNetworkConfigAPEZCameraHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigAPEZCameraHandler.m; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3ACA91F99CCA2BB43207A72692854D8F /* SHRouterConfigManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHRouterConfigManager.modulemap; sourceTree = "<group>"; };
-		3B00CCF081FBC7797DC827E546818FDE /* SHNetworkConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigModel.h; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		4AA6001368C8F56999987FD3731F9B78 /* SHNetworkConfigHandlerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigHandlerFactory.m; sourceTree = "<group>"; };
-		4B9D948BAC278C39A599EBD4D3AF2DF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		42378269605EDDA5A7E756BF4804F06B /* SHRouterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterManager.h; sourceTree = "<group>"; };
+		46B769A0A5C8E20532DD2C231925228A /* SHRouterCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHRouterCore.m; sourceTree = "<group>"; };
+		4851A8612081BDC2C14DCDE865FB9FA2 /* SHRouterTargetConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterTargetConfig.h; sourceTree = "<group>"; };
 		4BD01A87E2CDE47E40068CAC0E9176A0 /* Pods-SHRouterConfigManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHRouterConfigManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		4DC4D53EE5DEEE113CEFA2D48748CF63 /* SHNetworkConfigProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigProtocol.h; sourceTree = "<group>"; };
-		51876C98F79AFAF457BBDFC6D282B7D5 /* SHRouterConfigManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHRouterConfigManager-prefix.pch"; sourceTree = "<group>"; };
+		525BB842CB30F02DF2BE4698ED0AB33B /* SHRouterConfigManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHRouterConfigManager.xcconfig; sourceTree = "<group>"; };
 		52DB9C1465E3C6451DC4E129F104476A /* Pods-SHRouterConfigManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHRouterConfigManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A88C8D4B05EFD5D53E5EF7BE827A011 /* SHNetworkConfigBaseHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigBaseHandler.m; sourceTree = "<group>"; };
+		5518C4A4C75A8C4FDABB01027C119EC2 /* SHRouterTableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterTableProtocol.h; sourceTree = "<group>"; };
+		5909EBA2A13DC064270DA865BB467659 /* SHRouterManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterManagerProtocol.h; sourceTree = "<group>"; };
+		5A6008069AAFA77AED4E8F1E9BDDB0CF /* SHRouterConfigManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SHRouterConfigManager-Info.plist"; sourceTree = "<group>"; };
 		5AD8C70A0051C367B7E463CC636BC743 /* Pods-SHRouterConfigManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHRouterConfigManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B5EABB4A4613922E8FE2BC360A56AE2 /* Pods-SHRouterConfigManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHRouterConfigManager_Example-Info.plist"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D83CAF57AF5D71E5BD2CA3E0E0A2BA7 /* SHNetworkConfigMideaHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigMideaHandler.m; sourceTree = "<group>"; };
-		5E2D0EA75A61E05ADBD9F2692F587697 /* SHNetworkConfigMideaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigMideaHandler.h; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5F337DAD86E743266D1E6301E8DEA35A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		64AC6324FFBD021F8BCE321CD8244808 /* SHNetworkConfigDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigDefine.h; sourceTree = "<group>"; };
+		660313D2B6F61B193DDE5351829A7337 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		690BB85CCC9E1F8892D85161B72DFBFA /* SHRouterTargetVCFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterTargetVCFactory.h; sourceTree = "<group>"; };
 		6A289C06F124C7071954481A5196E07A /* Pods-SHRouterConfigManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHRouterConfigManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		710A6DAD15ABA53052887445C7BAD60A /* SHRouterRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHRouterRequest.m; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		7AB9511FEDE7732E4B40CACE25B9FBF1 /* SHNetworkConfigAPGeLiHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigAPGeLiHandler.m; sourceTree = "<group>"; };
+		7B63785787629A10FB9570DA247C6FFC /* SHRouterTargetConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHRouterTargetConfig.m; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CB2F1178C6867A0B01162C6C8378087 /* SHRouterTableManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHRouterTableManager.m; sourceTree = "<group>"; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		8382EE482D83ECCA27F532EEBD8AA17D /* SHRouterConfigManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHRouterConfigManager.xcconfig; sourceTree = "<group>"; };
+		831B3DA53F823D58024C9FA06589EC2E /* NSURL+SHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SHRouter.m"; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		8B548EB1F1F817DBEDB4F522A7DF4BB6 /* Pods-SHRouterConfigManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHRouterConfigManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		903501469C1BBDADAFDD36635A6EF30D /* SHRouterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHRouterManager.m; sourceTree = "<group>"; };
+		91AB742C8226B27B53823EF6BEDD0BE6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SHRouterConfigManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		96DAA1D6C292B2CE9DB96A679BE856B3 /* SHRouterCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterCore.h; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		9B6D127819AD0381389D39B021F22B3F /* SHRouterTargetVCFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHRouterTargetVCFactory.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE579E108590E99B119247984D1859A /* SHRouterConfigManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHRouterConfigManager.modulemap; sourceTree = "<group>"; };
+		9E524B990EEE5B49568DCF8E711F4DE4 /* NSURL+SHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+SHRouter.h"; sourceTree = "<group>"; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A5D200C60416899492A43F6C907DCA2B /* SHRouterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterProtocol.h; sourceTree = "<group>"; };
 		A68548291FD82D03D72054481136478F /* Pods-SHRouterConfigManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHRouterConfigManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A699786D32143DD8901F3264729EA9C0 /* Pods-SHRouterConfigManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHRouterConfigManager_Example.modulemap"; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AC094D9A1191F46742F150AA4371B869 /* Pods-SHRouterConfigManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHRouterConfigManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		AE1F35C2C511824EDD55B98D4A799FF0 /* SHNetworkConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigManager.m; sourceTree = "<group>"; };
-		AF568CC85F81C0E67680EC1FF5D66220 /* SHNetworkConfigBaseHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigBaseHandler.h; sourceTree = "<group>"; };
+		AEC6282098E30146CAFA2EBD86FB2CCF /* NSError+SHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+SHRouter.h"; sourceTree = "<group>"; };
 		B01580D1501539B9D5BECAEE0ECCD64A /* Pods-SHRouterConfigManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHRouterConfigManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B02F35CC6D148B29B6F8FAFA18E7693E /* Pods-SHRouterConfigManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHRouterConfigManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CBB3C158CD89C8F5D668798F914A4419 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SHRouterConfigManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B8976D0F4C4CA1C0814D2A5D6AE9F44B /* SHRouterRuntimeUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHRouterRuntimeUtils.m; sourceTree = "<group>"; };
+		C63C2E20FC270557B2D397B48BCF3399 /* SHRouterRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterRequest.h; sourceTree = "<group>"; };
+		C7B0C7FCBC68EDF11D8CAE194172E084 /* SHRouterConfigManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHRouterConfigManager-prefix.pch"; sourceTree = "<group>"; };
+		C9F417681E1E7B4B0246023176896440 /* NSError+SHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+SHRouter.m"; sourceTree = "<group>"; };
 		CD40929ADEFA6A6209FC4D491DE1F1DC /* Pods-SHRouterConfigManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHRouterConfigManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D07C0D52708D9AEE89D9A242993F5136 /* Pods-SHRouterConfigManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHRouterConfigManager_Example-dummy.m"; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D80C54B4DE765335BE9AFC64BD0BE54A /* SHRouterConfigManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHRouterConfigManager-umbrella.h"; sourceTree = "<group>"; };
-		DC438667E962B4A27F024E8C64BC3F84 /* SHNetworkConfigAPEZCameraHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigAPEZCameraHandler.h; sourceTree = "<group>"; };
+		D65E71A24CAD3FED4D2038A3E781E808 /* SHRouterConfigManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SHRouterConfigManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		E365537F3A45523AB3DECFB52B80BF88 /* Pods_SHRouterConfigManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHRouterConfigManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E36BE2841831E73F3581AB46D1D1774E /* SHNetworkConfigHandlerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigHandlerFactory.h; sourceTree = "<group>"; };
 		E602AD74FDBD58A790BCDCF5935F3164 /* Pods-SHRouterConfigManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHRouterConfigManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		ED957BAEB1520D2DE0B96BB512872AC2 /* SHRouterTableManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHRouterTableManager.h; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		EFC5D2EAA049EC2347F96982CAACBB0C /* SHRouterConfigManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SHRouterConfigManager.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		F1C48436439CCC64348FD6108523C59B /* Pods_SHRouterConfigManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHRouterConfigManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26003768D621654E86AB2F15D1FBC58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE102D57A91650D5B42CB9ECF5623EE8 /* UIViewController+FindVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FindVC.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,11 +184,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96255E81F890C16DB90D8D366C66EBD8 /* Frameworks */ = {
+		66D8B87F6B3D3335CE957F071DF32957 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6B580B3996E8AD02F4D123BE175203 /* Foundation.framework in Frameworks */,
+				DE0DAA2D192E49DFF4AF79EFD9621ABD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +214,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E43C33798FB610AF45D9EEAD2309A91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE579E108590E99B119247984D1859A /* SHRouterConfigManager.modulemap */,
+				525BB842CB30F02DF2BE4698ED0AB33B /* SHRouterConfigManager.xcconfig */,
+				19CFE703D4DE8A61BCB9CE08ACB03D4F /* SHRouterConfigManager-dummy.m */,
+				5A6008069AAFA77AED4E8F1E9BDDB0CF /* SHRouterConfigManager-Info.plist */,
+				C7B0C7FCBC68EDF11D8CAE194172E084 /* SHRouterConfigManager-prefix.pch */,
+				3219F52BCB0DBE8ACFBD1C1BECBE9826 /* SHRouterConfigManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SHRouterConfigManager";
+			sourceTree = "<group>";
+		};
 		1944F7A0FB514ADBA05BE80E102CBAFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,16 +239,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2EAB3AF33E13F9358C5AAEE6D8953657 /* SHRouterConfigManager */ = {
+		359BA80ED96F947FBAA2A72DA405C50F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3C158CD89C8F5D668798F914A4419 /* ReplaceMe.m */,
-				6DDFA46FE69D858ADD0F71C26E710939 /* Manager */,
-				F70C017A68E952174BE705DF9E2AB8BE /* Pod */,
-				EA4253AA6C289DF4BE37A29B47276178 /* Support Files */,
+				82A653986A37111D16A3F5B4D9039366 /* SHRouterConfigManager */,
 			);
-			name = SHRouterConfigManager;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		409ACD6E3FCA400F1136313CF2D2F26A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				27DE079A84BD49AC05A932E1F6182686 /* SHRouterAuthObjectProtocol.h */,
+				5909EBA2A13DC064270DA865BB467659 /* SHRouterManagerProtocol.h */,
+				A5D200C60416899492A43F6C907DCA2B /* SHRouterProtocol.h */,
+				5518C4A4C75A8C4FDABB01027C119EC2 /* SHRouterTableProtocol.h */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
@@ -250,12 +289,23 @@
 			path = "Target Support Files/Pods-SHRouterConfigManager_Example";
 			sourceTree = "<group>";
 		};
-		5F8476F9E20A5887194A6D0AF22BEE00 /* Development Pods */ = {
+		5427ACF04E0980D8408B6DA8A957D314 /* RouterManager */ = {
 			isa = PBXGroup;
 			children = (
-				2EAB3AF33E13F9358C5AAEE6D8953657 /* SHRouterConfigManager */,
+				2D4DB93F9500724501A602C3E693B500 /* SHRouterDefine.h */,
+				42378269605EDDA5A7E756BF4804F06B /* SHRouterManager.h */,
+				903501469C1BBDADAFDD36635A6EF30D /* SHRouterManager.m */,
+				D008F96A5E308BD6F63B1E950A12B09B /* Category */,
+				C8E48BA2A665B0918E3F0FA26ED445ED /* Factory */,
+				409ACD6E3FCA400F1136313CF2D2F26A /* Protocol */,
+				D017ED3DC399D543416391576C1B1CC0 /* RouterCore */,
+				74ADFCAB7EDD885E4E6420CA34C6A2A1 /* RouterRequest */,
+				E41A904E2EF5A1788B42B8A2B5AF81B1 /* RouterTableManager */,
+				D84F7167C3B1CBFCF7BF53A7E46BF03E /* TargerConfig */,
+				E3A801D6653B214528C7E7527BDAC300 /* Utils */,
 			);
-			name = "Development Pods";
+			name = RouterManager;
+			path = SHRouterConfigManager/Classes/RouterManager;
 			sourceTree = "<group>";
 		};
 		62A010AE591581701C9A11EB2D626918 /* Targets Support Files */ = {
@@ -267,18 +317,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6DDFA46FE69D858ADD0F71C26E710939 /* Manager */ = {
+		74ADFCAB7EDD885E4E6420CA34C6A2A1 /* RouterRequest */ = {
 			isa = PBXGroup;
 			children = (
-				64AC6324FFBD021F8BCE321CD8244808 /* SHNetworkConfigDefine.h */,
-				1AB5429DDC193052DDC36178AE79640C /* SHNetworkConfigManager.h */,
-				AE1F35C2C511824EDD55B98D4A799FF0 /* SHNetworkConfigManager.m */,
-				9A226A9C5DC3195158C9099EA3E3FBE1 /* Factory */,
-				FEFED3EA0DBD9F205C267D683AA26665 /* Handler */,
-				C9E454E6589D3F9C5A54794D798A8465 /* Model */,
+				C63C2E20FC270557B2D397B48BCF3399 /* SHRouterRequest.h */,
+				710A6DAD15ABA53052887445C7BAD60A /* SHRouterRequest.m */,
 			);
-			name = Manager;
-			path = SHRouterConfigManager/Classes/Manager;
+			path = RouterRequest;
 			sourceTree = "<group>";
 		};
 		7C6031B395545506D0EB7CCB6B366D09 /* Pods-SHRouterConfigManager_Tests */ = {
@@ -317,6 +362,18 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		82A653986A37111D16A3F5B4D9039366 /* SHRouterConfigManager */ = {
+			isa = PBXGroup;
+			children = (
+				91AB742C8226B27B53823EF6BEDD0BE6 /* ReplaceMe.m */,
+				9D0EADE5A8CDA5104C3632F55C7914E9 /* Pod */,
+				5427ACF04E0980D8408B6DA8A957D314 /* RouterManager */,
+				0E43C33798FB610AF45D9EEAD2309A91 /* Support Files */,
+			);
+			name = SHRouterConfigManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,13 +384,14 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		9A226A9C5DC3195158C9099EA3E3FBE1 /* Factory */ = {
+		9D0EADE5A8CDA5104C3632F55C7914E9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E36BE2841831E73F3581AB46D1D1774E /* SHNetworkConfigHandlerFactory.h */,
-				4AA6001368C8F56999987FD3731F9B78 /* SHNetworkConfigHandlerFactory.m */,
+				F26003768D621654E86AB2F15D1FBC58 /* LICENSE */,
+				660313D2B6F61B193DDE5351829A7337 /* README.md */,
+				D65E71A24CAD3FED4D2038A3E781E808 /* SHRouterConfigManager.podspec */,
 			);
-			path = Factory;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
@@ -365,25 +423,74 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C9E454E6589D3F9C5A54794D798A8465 /* Model */ = {
+		C8E48BA2A665B0918E3F0FA26ED445ED /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				3B00CCF081FBC7797DC827E546818FDE /* SHNetworkConfigModel.h */,
-				1AB88F6F604ECEFDBBFC5BEB047256B0 /* SHNetworkConfigModel.m */,
+				690BB85CCC9E1F8892D85161B72DFBFA /* SHRouterTargetVCFactory.h */,
+				9B6D127819AD0381389D39B021F22B3F /* SHRouterTargetVCFactory.m */,
 			);
-			path = Model;
+			path = Factory;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5F8476F9E20A5887194A6D0AF22BEE00 /* Development Pods */,
+				359BA80ED96F947FBAA2A72DA405C50F /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				1944F7A0FB514ADBA05BE80E102CBAFB /* Products */,
 				62A010AE591581701C9A11EB2D626918 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D008F96A5E308BD6F63B1E950A12B09B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AEC6282098E30146CAFA2EBD86FB2CCF /* NSError+SHRouter.h */,
+				C9F417681E1E7B4B0246023176896440 /* NSError+SHRouter.m */,
+				9E524B990EEE5B49568DCF8E711F4DE4 /* NSURL+SHRouter.h */,
+				831B3DA53F823D58024C9FA06589EC2E /* NSURL+SHRouter.m */,
+				FE102D57A91650D5B42CB9ECF5623EE8 /* UIViewController+FindVC.h */,
+				1678714372706A48E49843B974FC5418 /* UIViewController+FindVC.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D017ED3DC399D543416391576C1B1CC0 /* RouterCore */ = {
+			isa = PBXGroup;
+			children = (
+				96DAA1D6C292B2CE9DB96A679BE856B3 /* SHRouterCore.h */,
+				46B769A0A5C8E20532DD2C231925228A /* SHRouterCore.m */,
+			);
+			path = RouterCore;
+			sourceTree = "<group>";
+		};
+		D84F7167C3B1CBFCF7BF53A7E46BF03E /* TargerConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4851A8612081BDC2C14DCDE865FB9FA2 /* SHRouterTargetConfig.h */,
+				7B63785787629A10FB9570DA247C6FFC /* SHRouterTargetConfig.m */,
+			);
+			path = TargerConfig;
+			sourceTree = "<group>";
+		};
+		E3A801D6653B214528C7E7527BDAC300 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1326228E71B3D5ED1D2E882B2EF7FC74 /* SHRouterRuntimeUtils.h */,
+				B8976D0F4C4CA1C0814D2A5D6AE9F44B /* SHRouterRuntimeUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E41A904E2EF5A1788B42B8A2B5AF81B1 /* RouterTableManager */ = {
+			isa = PBXGroup;
+			children = (
+				ED957BAEB1520D2DE0B96BB512872AC2 /* SHRouterTableManager.h */,
+				7CB2F1178C6867A0B01162C6C8378087 /* SHRouterTableManager.m */,
+			);
+			path = RouterTableManager;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -392,46 +499,6 @@
 				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		EA4253AA6C289DF4BE37A29B47276178 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3ACA91F99CCA2BB43207A72692854D8F /* SHRouterConfigManager.modulemap */,
-				8382EE482D83ECCA27F532EEBD8AA17D /* SHRouterConfigManager.xcconfig */,
-				2EBF98EE75AA604E498A42108A1B212E /* SHRouterConfigManager-dummy.m */,
-				18ADA4B7410E952D52736FA630ED621F /* SHRouterConfigManager-Info.plist */,
-				51876C98F79AFAF457BBDFC6D282B7D5 /* SHRouterConfigManager-prefix.pch */,
-				D80C54B4DE765335BE9AFC64BD0BE54A /* SHRouterConfigManager-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SHRouterConfigManager";
-			sourceTree = "<group>";
-		};
-		F70C017A68E952174BE705DF9E2AB8BE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5F337DAD86E743266D1E6301E8DEA35A /* LICENSE */,
-				4B9D948BAC278C39A599EBD4D3AF2DF6 /* README.md */,
-				EFC5D2EAA049EC2347F96982CAACBB0C /* SHRouterConfigManager.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FEFED3EA0DBD9F205C267D683AA26665 /* Handler */ = {
-			isa = PBXGroup;
-			children = (
-				DC438667E962B4A27F024E8C64BC3F84 /* SHNetworkConfigAPEZCameraHandler.h */,
-				350DE152E21C112E863396A0A5106A01 /* SHNetworkConfigAPEZCameraHandler.m */,
-				2115998B5884465A8525902D82621F1E /* SHNetworkConfigAPGeLiHandler.h */,
-				7AB9511FEDE7732E4B40CACE25B9FBF1 /* SHNetworkConfigAPGeLiHandler.m */,
-				AF568CC85F81C0E67680EC1FF5D66220 /* SHNetworkConfigBaseHandler.h */,
-				5A88C8D4B05EFD5D53E5EF7BE827A011 /* SHNetworkConfigBaseHandler.m */,
-				5E2D0EA75A61E05ADBD9F2692F587697 /* SHNetworkConfigMideaHandler.h */,
-				5D83CAF57AF5D71E5BD2CA3E0E0A2BA7 /* SHNetworkConfigMideaHandler.m */,
-				4DC4D53EE5DEEE113CEFA2D48748CF63 /* SHNetworkConfigProtocol.h */,
-			);
-			path = Handler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,20 +535,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF158A02A5DF0C650EAE4FC12920EAFC /* Headers */ = {
+		E929AAD62A15152F502DC7910A740BDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24EA176AF4B77DEC80DABC994D56F94 /* SHNetworkConfigAPEZCameraHandler.h in Headers */,
-				7509C266A716494A5AE674D603B867CD /* SHNetworkConfigAPGeLiHandler.h in Headers */,
-				CE6CABC094D1165964B8FE32EFFF9537 /* SHNetworkConfigBaseHandler.h in Headers */,
-				D264CE52690BC8B769E77B4A42618068 /* SHNetworkConfigDefine.h in Headers */,
-				9AEC4092A5CC573E9B8E9F186119377D /* SHNetworkConfigHandlerFactory.h in Headers */,
-				F558201E328CAB2EEA346F416EC2564A /* SHNetworkConfigManager.h in Headers */,
-				F19CB0BF59104A5333CAFFB860E1940F /* SHNetworkConfigMideaHandler.h in Headers */,
-				978B5BC9B992822F88CA7695FA4B410B /* SHNetworkConfigModel.h in Headers */,
-				1306A7205E02B054A1CF1943379FE5C4 /* SHNetworkConfigProtocol.h in Headers */,
-				9990836AF82CB0A282E449C3BD52525A /* SHRouterConfigManager-umbrella.h in Headers */,
+				DAE72146FA3D9D9870984043D07CA936 /* NSError+SHRouter.h in Headers */,
+				6ED5524A32982656B81FD0363853A210 /* NSURL+SHRouter.h in Headers */,
+				12D4E1BFB022B6C3469DA08FB6937D8E /* SHRouterAuthObjectProtocol.h in Headers */,
+				0B3AFF2560F5926368FA8A57F8CD3657 /* SHRouterConfigManager-umbrella.h in Headers */,
+				830AB0B8AB02187C4E3703B8DB7F6788 /* SHRouterCore.h in Headers */,
+				FADC05A7FE182B6C6979DDEE69024876 /* SHRouterDefine.h in Headers */,
+				E896A0E1B90E99613F310151BC911AEC /* SHRouterManager.h in Headers */,
+				7D07732C4209CF333CE89C35AADFBFB8 /* SHRouterManagerProtocol.h in Headers */,
+				82CAD429F13C90E4864E7774479456E9 /* SHRouterProtocol.h in Headers */,
+				69B5D5B41029BDA8DC99509EF60F6B2D /* SHRouterRequest.h in Headers */,
+				45460124610AD6B2DF99F5D19B99217F /* SHRouterRuntimeUtils.h in Headers */,
+				4AE97A10394B5DD4DF2FCE1393C5ED4C /* SHRouterTableManager.h in Headers */,
+				C9A27AFD4FDDE63214362CFD08651552 /* SHRouterTableProtocol.h in Headers */,
+				0B5C51F4DCE3E239D842B74CB15247B0 /* SHRouterTargetConfig.h in Headers */,
+				732BE61F4E555139FC24788F24394F84 /* SHRouterTargetVCFactory.h in Headers */,
+				14277C8BA6F952816DB07DE39006BF7F /* UIViewController+FindVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,12 +620,12 @@
 		};
 		E8790784AC1AA80C1520FEF5410ABF6A /* SHRouterConfigManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0AE058E85BDDB562EBA299A69D28205 /* Build configuration list for PBXNativeTarget "SHRouterConfigManager" */;
+			buildConfigurationList = D5670A52DBB17C080854EE80D8D4332B /* Build configuration list for PBXNativeTarget "SHRouterConfigManager" */;
 			buildPhases = (
-				BF158A02A5DF0C650EAE4FC12920EAFC /* Headers */,
-				03C23309D2DC70F97B1084D03834C1AA /* Sources */,
-				96255E81F890C16DB90D8D366C66EBD8 /* Frameworks */,
-				C706BE61D0FC305825BC8539B10DD59C /* Resources */,
+				E929AAD62A15152F502DC7910A740BDA /* Headers */,
+				88BA6BD64CB6E1A54855E66507F382B6 /* Sources */,
+				66D8B87F6B3D3335CE957F071DF32957 /* Frameworks */,
+				92B2E412A6B1C8E985F11B631D9EF487 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -600,6 +673,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92B2E412A6B1C8E985F11B631D9EF487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B38F3557046098AE02FEF66079B82A81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -614,32 +694,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C706BE61D0FC305825BC8539B10DD59C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03C23309D2DC70F97B1084D03834C1AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EE5C81B62198F0CAC231B0030DC4C46 /* ReplaceMe.m in Sources */,
-				6DCAC950CBA80D599080C507F162D24F /* SHNetworkConfigAPEZCameraHandler.m in Sources */,
-				34721179A1617DA7D4EED4F9CB53AFBE /* SHNetworkConfigAPGeLiHandler.m in Sources */,
-				FAFDE8530FEEAF7274987E2D7AFD88A6 /* SHNetworkConfigBaseHandler.m in Sources */,
-				18D23940C9DC847727A8ABBA108B7AF6 /* SHNetworkConfigHandlerFactory.m in Sources */,
-				4B12ECD06FDCE3A0505057BF96218D0C /* SHNetworkConfigManager.m in Sources */,
-				A68A7A78E1B895E1BA6D1049E7343CB5 /* SHNetworkConfigMideaHandler.m in Sources */,
-				5BFD55D0A62B9ACA3604F44A4367B86D /* SHNetworkConfigModel.m in Sources */,
-				53805F6AED27213E44C4D03BA826C3A5 /* SHRouterConfigManager-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		15A02EFB3C8479486B4339283F7CD9E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -653,6 +710,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0036ACFEAA6172958F705F2BF7C62C1 /* Pods-SHRouterConfigManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BA6BD64CB6E1A54855E66507F382B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DA60DC36963FF24D5E14DC129FD0D0 /* NSError+SHRouter.m in Sources */,
+				75F97E3E7C601DC3955D2A842FCAFF56 /* NSURL+SHRouter.m in Sources */,
+				B97ACC813451595667A7218AD18542BA /* ReplaceMe.m in Sources */,
+				7C6C9593E14D0A7DD769BEB3EFCDBE0C /* SHRouterConfigManager-dummy.m in Sources */,
+				5AF945281ECCABDDC16F8AE304A8AA7F /* SHRouterCore.m in Sources */,
+				4694502B4230070922C0886763EA50EE /* SHRouterManager.m in Sources */,
+				D43A761DC4868A633542739E0B477ADA /* SHRouterRequest.m in Sources */,
+				04391311A0628A1EED4206E0A7BA35A2 /* SHRouterRuntimeUtils.m in Sources */,
+				6C12C6FA2F8313A5F7F8DFC67853A3DA /* SHRouterTableManager.m in Sources */,
+				305B1C82D5F0E70B9F4E87649D055695 /* SHRouterTargetConfig.m in Sources */,
+				F6F0FDE24B3104A3C8E7D0D6AB402A88 /* SHRouterTargetVCFactory.m in Sources */,
+				7736DC71F5B666FFCD5F58C600E5D099 /* UIViewController+FindVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,6 +836,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8BE3FAAFD9A82147635C95CA91CC3532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525BB842CB30F02DF2BE4698ED0AB33B /* SHRouterConfigManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHRouterConfigManager/SHRouterConfigManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHRouterConfigManager/SHRouterConfigManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHRouterConfigManager/SHRouterConfigManager.modulemap";
+				PRODUCT_MODULE_NAME = SHRouterConfigManager;
+				PRODUCT_NAME = SHRouterConfigManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8EB9BCE6B6203722B64A2B5DA50AF293 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -951,9 +1058,9 @@
 			};
 			name = Release;
 		};
-		D11225035D2BD7D85C8C6B4597E708F3 /* Release */ = {
+		CF3B376001691345F17300559B3C2A4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8382EE482D83ECCA27F532EEBD8AA17D /* SHRouterConfigManager.xcconfig */;
+			baseConfigurationReference = 525BB842CB30F02DF2BE4698ED0AB33B /* SHRouterConfigManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1016,37 +1123,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		E22DC809B519889161D2A1D845FA5E87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8382EE482D83ECCA27F532EEBD8AA17D /* SHRouterConfigManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SHRouterConfigManager/SHRouterConfigManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SHRouterConfigManager/SHRouterConfigManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SHRouterConfigManager/SHRouterConfigManager.modulemap";
-				PRODUCT_MODULE_NAME = SHRouterConfigManager;
-				PRODUCT_NAME = SHRouterConfigManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1118,11 +1194,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0AE058E85BDDB562EBA299A69D28205 /* Build configuration list for PBXNativeTarget "SHRouterConfigManager" */ = {
+		D5670A52DBB17C080854EE80D8D4332B /* Build configuration list for PBXNativeTarget "SHRouterConfigManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E22DC809B519889161D2A1D845FA5E87 /* Debug */,
-				D11225035D2BD7D85C8C6B4597E708F3 /* Release */,
+				8BE3FAAFD9A82147635C95CA91CC3532 /* Debug */,
+				CF3B376001691345F17300559B3C2A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

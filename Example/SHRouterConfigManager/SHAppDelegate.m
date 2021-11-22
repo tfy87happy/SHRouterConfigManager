@@ -7,12 +7,23 @@
 //
 
 #import "SHAppDelegate.h"
+#import "SHRouterManager.h"
+#import "SHViewController.h"
+
 
 @implementation SHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.hidden = NO;
+    SHViewController *vc = [[SHViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    [[SHRouterManager sharedManager] registerRouterTableDynamic];
     return YES;
 }
 

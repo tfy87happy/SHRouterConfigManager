@@ -19,6 +19,21 @@
 #import "SHNetworkConfigModel.h"
 #import "SHNetworkConfigDefine.h"
 #import "SHNetworkConfigManager.h"
+#import "NSError+SHRouter.h"
+#import "NSURL+SHRouter.h"
+#import "UIViewController+FindVC.h"
+#import "SHRouterTargetVCFactory.h"
+#import "SHRouterAuthObjectProtocol.h"
+#import "SHRouterManagerProtocol.h"
+#import "SHRouterProtocol.h"
+#import "SHRouterTableProtocol.h"
+#import "SHRouterCore.h"
+#import "SHRouterRequest.h"
+#import "SHRouterTableManager.h"
+#import "SHRouterDefine.h"
+#import "SHRouterManager.h"
+#import "SHRouterTargetConfig.h"
+#import "SHRouterRuntimeUtils.h"
 
 FOUNDATION_EXPORT double SHRouterConfigManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char SHRouterConfigManagerVersionString[];
